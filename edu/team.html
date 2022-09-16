@@ -1,0 +1,559 @@
+	<!DOCTYPE html>
+	<html >
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="img/fav.png">
+		<meta charset="UTF-8">
+		<title>Aeromodelling iitd</title>
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">			
+			<link rel="stylesheet" href="css/main.css">
+
+<style >
+
+
+body {
+  background: #FFF;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+*, :before, :after {
+    box-sizing: border-box;
+}
+.person {
+  width: 600px;
+  padding: 70px 0 0 230px;
+  min-height: 200px;
+  margin: auto;
+  position: relative;
+}
+.person-badge {
+  width: 200px;
+  height: 250px;
+  border-radius: 0 0 100px 100px;
+  overflow: hidden;
+  transform: rotate(0deg); /* To force its own layer */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.person-badge:before,
+.person-badge:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  z-index:-1;
+  width: 200px;
+  height: 200px;
+  background: #DDD;
+  background: linear-gradient(to bottom, #EEE 0%,#CCC 100%);
+  transition:500ms;
+}
+.person-badge:after {
+  background: linear-gradient(to top, #F88 0%,#EEE 100%);
+  opacity: 0;
+}
+.person-badge:hover:after {
+  opacity: 1;
+}
+
+.person-badge img {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 500ms;
+}
+
+.person-badge1 img {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 500ms;
+}
+
+strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
+
+@media screen and (max-width: 1210px) 
+{
+h3 {  font-size: 20px;}
+}
+@media screen and (max-width: 1000px) 
+{
+h3 {  font-size: 19px;}
+.person-badge {
+  width: 150px;
+  height: 200px;
+  border-radius: 0 0 80px 80px;}
+.person-badge img {width: 150px;}
+.person-badge:before,
+.person-badge:after{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.person-badge1 img {width: 150px;}
+.person-badge1:before,
+.person-badge1:after{
+  border-radius: 50%;
+  width: 100px;
+  height: 150px;
+}
+.person {padding: 70px 0 0 180px;  width: 400px;}
+}
+@media screen and (max-width: 500px) 
+{ width: 200px;}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+.radius{
+ border-radius: 8px;
+}
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    -webkit-transition: transform 0.4s ease-in-out;
+}
+</style>
+
+<!-- overall team -->
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.title {
+  color: grey;
+}
+</style>
+</head>
+<body>	
+  <header id="header" id="home" style=" background-color: rgb(18, 35, 76);">
+    <div class="container main-menu" >
+    	<div class=" align-items-center justify-content-between d-flex">
+	      <div id="logo" style="">
+	      <a href="#" class="pull-left"><img src="img/logo.png"></a>
+	      </div>
+	      <nav id="nav-menu-container">
+	        <ul class="nav-menu" >
+	          <li><a href="index.html">Home</a></li>
+	          <li><a href="about.html">About</a></li>
+	          <li><a href="events.html">Events</a></li>
+	          <li><a href="gallery.html">Gallery</a></li>
+	          <li class="menu-has-children"><a href="team.html">Team</a>
+	          </li>	
+		          					          		          
+	          <li><a href="contact.html">Contact</a></li>
+	        </ul>
+	      </nav><!-- #nav-menu-container -->		    		
+    	</div>
+    </div>
+  </header>
+
+
+	<h1 class="zoom" style="margin-top: 150px; text-align: center;">FACULTY</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 zoom radius " style="padding-right: 20px;">
+				<div class="person">
+				  <div class="person-badge" >
+				    <img class="normal" src="img/pro.png">
+
+				  </div>
+				  <h3>Assot. Prof. Amit Gupta</h3>
+				  <strong>Project instructer</strong>
+				  <div style="">
+				    <p style="max-width: 250px;">Department of Mechanical Engineering, IIT Delhi
+				    Amit @mech.iitd.ac.in</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-6 zoom" style="padding-left:20px;">
+				<div class="person">
+				  <div class="person-badge">
+				    <img src="img/p2.png">
+
+				  </div>
+				  <h3>Asst. Prof. Supreet Singh</h3>
+				  <strong>Faculty Incharge</strong>
+				  <div>
+				    <p style="max-width: 250px;">Department of Mechanical Engineering, IIT Delhi
+				    Supreet@mech.iitd.ac.in</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h1 class="zoom" style="margin-top: 150px; margin-bottom: 60px; text-align: center;">Co-Overall Coordinators	</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 zoom radius " style="padding-right: 20px;">
+				<div class="person">
+				  <div class="person-badge1" >
+				    <img class="coordinator" src="img/Shiva Teja.jpg" >
+
+				  </div>
+				  <div class="coordinat" style="padding-bottom: 50px;">
+				  <h3>Shive Teja</h3>
+				  <div style="">
+				    <p style="max-width: 250px; white-space: pre-line;"> itsmeshivateja@gmail.com</p>
+				    <p>9818890024</p>
+				  </div>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6 zoom" style="padding-left:20px;">
+				<div class="person">
+				  <div class="person-badge1">
+				    <img class="coordinator" src="img/Yogesh Kundalwal.jpg">
+
+				  </div>
+				  <div class="coordinat" style="padding-bottom: 50px;">
+					  <h3>Yogesh Kundalwal</h3>
+					  <div>
+					    <p style="max-width: 250px;">teja@gmail.com</p>
+					    <p>9560942242</p>
+					  </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 	<div class="container" >
+		<div class="row" >
+			<div class="col-md-6 zoom radius " style="border-style: outset; padding-right: 5px;">
+				<div class="person">
+				  <div class="person-badge1" >
+				    <img style="" src="http://tech.custom-media.com/pics/t1.png">
+				  </div>
+				  <h3>Yogesh Kundalwal</h3>
+
+				  <div style="background-color: gray; position: none;">
+				    <p style="max-width: 250px;">kundalwalyogesh01@gmail.com</p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-6  zoom radius" style=" border-style: outset; padding-left:5px;">
+				<div class="person">
+				  <div class="person-badge1">
+				    <img class="normal" src="http://tech.custom-media.com/pics/t1.png">
+
+				  </div>
+				  <h3>Yogesh Kundalwal</h3>
+				  <div>
+				    <p style="max-width: 250px;">kundalwalyogesh01@gmail.com</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<h1 class="zoom" style="margin-top: 150px; margin-bottom: 60px; text-align: center;">AEROMODELLING TEAM</h1>	
+
+<div class="row container" style="margin-left: 8%;">
+  <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 200px;  overflow: hidden; ">
+    	<img src="img/nitesh.jpg" alt="nitesh" style="width: 100%;  overflow: hidden;">
+    </div>
+      <div class="container" style="padding-top: 10px;">
+        <h4><b>Nitesh Amliyar</b></h4>
+        <p class="title">Mentor</p>
+        <p>nitesh9614@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 200px;  overflow: hidden; ">
+    	<img src="img/Vinay Arora.jpg" style="width: 100%;  overflow: hidden;">
+    </div>	
+      <div class="container" style="padding-top: 10px;">
+        <h4><b>Vinay Arora</b></h4>
+        <p class="title">Mentor</p>
+        <p>---------@gmail.com</p>
+        <P>+91-9560942242</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="column ">
+    <div class="card">
+    <div style="width:100%; height: 200px;  overflow: hidden; ">
+    	<img src="img/Aman Verma.jpg" alt="Aman" style="width: 100%;  overflow: hidden;">
+    </div>
+      <div class="container" style="padding-top: 10px;">
+        <h4><b>	Aman Verma </b></h4>
+        <p class="title">coordinator</p>
+        <p>---------@gmail.com</p>
+        <P>+91-9560942242</P>
+      </div>
+    </div>
+  </div>
+
+   <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 200px;  overflow: hidden; ">
+    	<img src="img/Jayant Yewale.jpg" alt="Jayant" style="width: 100%;  overflow: hidden;">
+    </div>
+      <div class="container" style="padding-top: 10px;">
+        <h4> <b> Jayant Yewale </b></h4>
+        <p class="title">coordinator</p>
+        <p>----------@gmail.com</p>
+        <P>+91-9560942242</P>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+	<h1 class="zoom" style="margin-top: 150px; margin-bottom: 60px; text-align: center;">Other Members</h1>	
+
+<div class="row container" style="margin-left: 8%;">
+  <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Sanketh Ajmera.jpg" alt="Sanketh" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#demo">
+    </div>
+
+      <div class="container collapse" style="padding-top: 10px;" id="demo" >
+        <h4><b>	Sanketh Ajmera </b></h4>
+        <p class="title">Mentor</p>
+        <p>Sanketh@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Vishnu Teja.jpg" alt="Vishnu" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Vishnu">
+    </div>
+
+      <div class="container collapse" style="padding-top: 10px;" id="Vishnu" >
+        <h4><b> Vishnu Teja </b></h4>
+        <p class="title">Mentor</p>
+        <p>Vishnu@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Aditi Singh.jpg" alt="Aditi" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Aditi">
+    </div>
+
+      <div class="container collapse" style="padding-top: 10px;" id="Aditi" >
+        <h4><b> Aditi Singh </b></h4>
+        <p class="title">Mentor</p>
+        <p>Aditi@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Abhinav Sai Sri Ram.jpg" alt="Abhinav" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Abhinav">
+    </div>
+
+      <div class="container collapse" style="padding-top: 10px;" id="Abhinav" >
+        <h4><b> Abhinav Sai Sri Ram </b></h4>
+        <p class="title">Mentor</p>
+        <p>Abhinav@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+   <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Aryaman Sinha.jpg" alt="Aryaman" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Aryaman">
+    </div>
+      <div class="container collapse" style="padding-top: 10px;" id="Aryaman" >
+        <h4><b> Aryaman Sinha </b></h4>
+        <p class="title">Mentor</p>
+        <p>Aryaman@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Deepak Kumar.jpg" alt="Deepak" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Deepak">
+    </div>
+      <div class="container collapse" style="padding-top: 10px;" id="Deepak" >
+        <h4><b> Deepak Kumar </b></h4>
+        <p class="title">Mentor</p>
+        <p>Deepak@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+      <div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Divyam Gupta.jpg" alt="Divyam" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Divyam">
+    </div>    	
+      <div class="container collapse" style="padding-top: 10px;" id="Divyam" >
+        <h4><b> Divyam Gupta </b></h4>
+        <p class="title">Mentor</p>
+        <p>Divyam@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Nikhil Dhale.jpg" alt="Abhinav" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Nikhil">
+    </div>    	
+
+      <div class="container collapse" style="padding-top: 10px;" id="Nikhil" >
+        <h4><b> Nikhil Dhale </b></h4>
+        <p class="title">Mentor</p>
+        <p>Nikhil@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+</div>  
+<div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Parth Samaria.jpg" alt="Parth" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Parth">
+    </div>    	
+      <div class="container collapse" style="padding-top: 10px;" id="Parth" >
+        <h4><b> Parth Samaria </b></h4>
+        <p class="title">Mentor</p>
+        <p>Parth@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+  </div>  
+
+<!-- <div class="column">
+    <div class="card">
+      <img src="img/Prem Sai.jpg" alt="Jane" style="width:100%; height: 200px;" data-toggle="collapse" data-target="#Prem">
+      <div class="container collapse" style="padding-top: 10px;" id="Prem" >
+        <h4><b> Prem Sai </b></h4>
+        <p class="title">Mentor</p>
+        <p>Prem@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+</div>  -->
+
+<div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Shashank.jpg" alt="Shashank" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Shashank">
+    </div>     	
+      <div class="container collapse" style="padding-top: 10px;" id="Shashank" >
+        <h4><b> Shashank</b></h4>
+        <p class="title">Mentor</p>
+        <p>Shashank@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+</div> 
+
+<div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Tanmay Sir.jpg" alt="Tanmay" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Tanmay">
+    </div>       	
+      <div class="container collapse" style="padding-top: 10px;" id="Tanmay" >
+        <h4><b> Tanmay Sir</b></h4>
+        <p class="title">Mentor</p>
+        <p>Tanmay@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+</div> 
+
+<div class="column">
+    <div class="card">
+    <div style="width:100%; height: 190px;  overflow: hidden; ">
+    	<img src="img/Vivek Muskaan.jpg" alt="Vivek" style="width: 100%;  overflow: hidden;" data-toggle="collapse" data-target="#Vivek">
+    </div>       	
+
+      <div class="container collapse" style="padding-top: 10px;" id="Vivek" >
+        <h4><b> Vivek Muskaan</b></h4>
+        <p class="title">Mentor</p>
+        <p>Vivek@gmail.com</p>
+        <P>+91-9717323506</P>
+      </div>
+    </div>
+</div> 
+
+
+</div>
+  
+</div>
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/superfish.min.js"></script>	
+	<script src="js/jquery.magnific-popup.min.js"></script>	
+	<script src="js/owl.carousel.min.js"></script>				
+	<script src="js/main.js"></script>	
+</body>
+</html>
+
+
+
+
+
+
+
+
+ 
